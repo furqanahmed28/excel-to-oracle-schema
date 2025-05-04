@@ -45,20 +45,3 @@ CREATE TABLE employees (ID NUMBER, Name VARCHAR(50), Join Date DATE);
 INSERT INTO employees (ID, Name, Join Date) VALUES (1, 'Ali', TO_DATE('15-02-2023', 'DD-MM-YYYY'));
 COMMIT;
 ```
-
----
-
-## 🔼 How to Push the README to GitHub
-
-### If You Already Cloned or Initialized Git:
-
-1. Save the above content in a file called `README.md` in the same folder as your script.
-
-2. Run these commands in your terminal:
-
-```bash
-git add README.md
-git commit -m "Add README with usage instructions"
-git push origin main
-```
-Replace main with master if that's your branch name.
